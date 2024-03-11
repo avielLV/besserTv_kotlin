@@ -1,6 +1,7 @@
 package com.bessersolutions.bessertv.presentation.navgraph
 
 import androidx.compose.runtime.Composable
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
@@ -8,6 +9,7 @@ import androidx.navigation.compose.rememberNavController
 import com.bessersolutions.bessertv.presentation.dashboard.DashboardScreen
 import com.bessersolutions.bessertv.presentation.list_video.ListVideoScreen
 import com.bessersolutions.bessertv.presentation.login.LoginScreen
+import com.bessersolutions.bessertv.presentation.login.LoginViewModel
 import com.bessersolutions.bessertv.presentation.video_stream.VideoStreamScreen
 
 @Composable

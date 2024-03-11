@@ -1,4 +1,4 @@
-package com.bessersolutions.bessertv.domain.usecases.XtreamApi
+package com.bessersolutions.bessertv.domain.usecases.DataStore
 
 data class AppUserUseCase(
     val getUser: GetUser,

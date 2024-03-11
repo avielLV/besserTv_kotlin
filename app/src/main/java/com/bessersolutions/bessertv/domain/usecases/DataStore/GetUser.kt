@@ -1,4 +1,4 @@
-package com.bessersolutions.bessertv.domain.usecases.XtreamApi
+package com.bessersolutions.bessertv.domain.usecases.DataStore
 
 import com.bessersolutions.bessertv.domain.manger.LocalUserManger
 import com.bessersolutions.bessertv.domain.model.UserModel

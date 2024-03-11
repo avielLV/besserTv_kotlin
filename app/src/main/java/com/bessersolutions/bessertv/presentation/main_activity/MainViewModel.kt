@@ -4,7 +4,7 @@ import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.bessersolutions.bessertv.domain.usecases.XtreamApi.AppUserUseCase
+import com.bessersolutions.bessertv.domain.usecases.DataStore.AppUserUseCase
 import com.bessersolutions.bessertv.presentation.navgraph.Route
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
